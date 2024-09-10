@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+input, button {
+  margin: 5px 0;
+}
+
+p {
+  font-weight: bold;
+}
+ span {
+  color: red;
+ }

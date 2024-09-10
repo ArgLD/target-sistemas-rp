@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes Técnicos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Testes Técnicos</h1>
+
+    <div>
+        <h2>1. Sequência de Fibonacci</h2>
+        <input type="number" id="fibonacciInput" placeholder="Informe um número">
+        <button onclick="checkFibonacci()">Verificar</button>
+        <p id="fibonacciResult"></p>
+    </div>
+
+    <div>
+        <h2>2. Verificar letra 'a'</h2>
+        <input type="text" id="stringInput" placeholder="Informe uma string">
+        <button onclick="checkLetterA()">Verificar</button>
+        <p id="letterAResult"></p>
+    </div>
+
+    <div>
+        <h2>3. Valor da variável SOMA</h2>
+        <p id="somaResult"></p>
+    </div>
+
+    <div>
+        <h2>4. Completar sequência</h2>
+        <p>a) 1, 3, 5, 7, <span id="seqA"></span></p>
+        <p>b) 2, 4, 8, 16, 32, 64, <span id="seqB"></span></p>
+        <p>c) 0, 1, 4, 9, 16, 25, 36, <span id="seqC"></span></p>
+        <p>d) 4, 16, 36, 64, <span id="seqD"></span></p>
+        <p>e) 1, 1, 2, 3, 5, 8, <span id="seqE"></span></p>
+        <p>f) 2, 10, 12, 16, 17, 18, 19, <span id="seqF"></span></p>
+    </div>
+
+    <div>
+      <h2>5. Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?</h2>
+
+        <h3>Passos para descobrir:</h3>
+      <ol>
+          <li>
+              <strong>Primeira Ação:</strong>
+              <ul>
+                  <li>Ligue o primeiro interruptor (Interruptor A) e deixe-o ligado por alguns minutos. Isso permitirá que a lâmpada correspondente aqueça.</li>
+              </ul>
+          </li>
+          <li>
+              <strong>Segunda Ação:</strong>
+              <ul>
+                  <li>Após alguns minutos, desligue o Interruptor A.</li>
+                  <li>Ligue o segundo interruptor (Interruptor B) e deixe-o ligado.</li>
+                  <li>Mantenha o terceiro interruptor (Interruptor C) desligado.</li>
+              </ul>
+          </li>
+          <li>
+              <strong>Primeira ida até as salas das lâmpadas:</strong>
+              <ul>
+                  <li>Vá até a sala das lâmpadas pela primeira vez.</li>
+                  <li>Inspecione as lâmpadas:</li>
+                  <ul>
+                      <li>A lâmpada que está acesa corresponde ao Interruptor B (o segundo que você ligou).</li>
+                      <li>A lâmpada que está quente, mas apagada, corresponde ao Interruptor A (o primeiro que você ligou e depois desligou).</li>
+                      <li>A lâmpada que está fria e apagada corresponde ao Interruptor C (que você não ligou).</li>
+                  </ul>
+              </ul>
+          </li>
+      </ol>
+      <p>Com essas ações e apenas uma ida à sala das lâmpadas, você consegue identificar qual interruptor controla cada lâmpada!</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
