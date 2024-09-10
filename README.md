@@ -1,4 +1,4 @@
-# Estágio - Ribeirão Preto
+# Estágio - Target Ribeirão Preto
 
 Este repositório contém as questões técnicas para o processo seletivo de estágio.
 ## Link:
